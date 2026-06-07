@@ -1,11 +1,3 @@
-//
-//  Note+CoreDataClass.swift
-//  coreDataParthOne
-//
-//  Created by Максим Минаков on 06.06.2026.
-//
-//
-
 public import Foundation
 public import CoreData
 
@@ -20,10 +12,10 @@ extension Note {
         return NSFetchRequest<Note>(entityName: "Note")
     }
 
-    @NSManaged public var id: String?
-    @NSManaged public var title: String?
+    @NSManaged public var id: String
+    @NSManaged public var title: String
     @NSManaged public var content: String?
-    @NSManaged public var data: Date?
+    @NSManaged public var data: Date
 
 }
 

@@ -3,6 +3,6 @@
 <plist version="1.0">
 <dict>
 	<key>_XCCurrentVersionName</key>
-	<string>coreDataParthOne.xcdatamodel</string>
+	<string>db.xcdatamodel</string>
 </dict>
 </plist>
